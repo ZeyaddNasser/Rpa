@@ -1,0 +1,9 @@
+Descreption : Windy
+Temperature : Cold
+High Temperature: 34°F(1°C)
+Low Temperature : 20°F(-7°C)
+Relative: Colder than normal
+Wind Force : Moderate
+Wind Speed : 12mph(19kph)
+More Info : Cold: An unprotected character in cold weather (below 40°F) must make a Fortitude save each hour (DC 15, + 1 per previous check) or take 1d6 points of nonlethal damage.  A character who has the Survival skill may receive a bonus on her saving throw and may be able to apply this bonus to other characters as well.  A character who takes any nonlethal damage from cold or exposure is beset by frostbite or hypothermia (treat her as fatigued). These penalties end when the character recovers the nonlethal damage she took from the cold and exposure.  Nonlethal damage from cold or exposure cannot be recovered until the character gets out of the cold and warms up again. Once a character is rendered unconscious through the accumulation of nonlethal damage, the cold and exposure begins to deal lethal damage at the same rate.
+  Moderate Wind: A steady wind with a 50% chance of extinguishing candles, torches, and similar unprotected flames.
