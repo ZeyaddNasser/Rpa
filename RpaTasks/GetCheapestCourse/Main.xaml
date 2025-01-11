@@ -94,7 +94,7 @@
       <AssemblyReference>System.Linq.Queryable</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="866.4000000000001,2286.4" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="866.4000000000001,2462.4" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="str1CourseName" />
       <Variable x:TypeArguments="x:String" Name="str1CourseRate" />
@@ -185,6 +185,11 @@
         <InArgument x:TypeArguments="scg:Dictionary(x:String, x:String)" x:Key="inFirstCourse">[new System.Collections.Generic.Dictionary(Of System.String, System.String) From { { "price", str1CoursePrice },{ "name", str1CourseName },{ "rate", str1CourseRate },{ "author", str1CourseAuthor } }]</InArgument>
         <InArgument x:TypeArguments="scg:Dictionary(x:String, x:String)" x:Key="inSecondCourse">[new System.Collections.Generic.Dictionary(Of System.String, System.String) From { { "name", str2CourseName },{ "price", str2CoursePrice },{ "rate", str2CourseRate },{ "author", str2CourseAuthor } }]</InArgument>
         <InArgument x:TypeArguments="scg:Dictionary(x:String, x:String)" x:Key="inThirdCourse">[new System.Collections.Generic.Dictionary(Of System.String, System.String) From { { "name", str3CourseName },{ "price", str3CoursePrice },{ "rate", str3CourseRate },{ "author", str3CourseAuthor } }]</InArgument>
+      </ui:InvokeWorkflowFile.Arguments>
+    </ui:InvokeWorkflowFile>
+    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="CloseWindow - Invoke Workflow File (CloseWindow.xaml)" sap:VirtualizedContainerService.HintSize="484.8,176" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_19" UnSafe="False" WorkflowFileName="CloseWindow.xaml">
+      <ui:InvokeWorkflowFile.Arguments>
+        <scg:Dictionary x:TypeArguments="x:String, Argument" />
       </ui:InvokeWorkflowFile.Arguments>
     </ui:InvokeWorkflowFile>
     <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="484.8,327.2" sap2010:WorkflowViewState.IdRef="CommentOut_1">

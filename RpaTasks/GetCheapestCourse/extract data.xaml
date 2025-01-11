@@ -86,25 +86,26 @@
       <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="extract_data" sap:VirtualizedContainerService.HintSize="866.4000000000001,1088.8" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="extract_data" sap:VirtualizedContainerService.HintSize="866.4000000000001,898.4" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:WindowScope ApplicationWindow="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Attach Window 'chrome.exe Search'" sap:VirtualizedContainerService.HintSize="550.4,1065.6" sap2010:WorkflowViewState.IdRef="WindowScope_1" InformativeScreenshot="6451b6be929bf476f8a9829ba61bc252" SearchScope="{x:Null}" Selector="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='* | Udemy - Go*' /&gt;" TimeoutMS="{x:Null}" Window="{x:Null}">
-      <ui:WindowScope.Body>
+    <ui:BrowserScope Browser="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" UiBrowser="{x:Null}" BrowserType="Chrome" DisplayName="Attach Browser 'chrome.exe Learn'" sap:VirtualizedContainerService.HintSize="483.2,875.2" sap2010:WorkflowViewState.IdRef="BrowserScope_4" InformativeScreenshot="8cbdc8f443e77406b5cb76a05298a4c4" Selector="&lt;html app='chrome.exe' title='*' url='https://www.udemy.com/course/*/?couponCode=LETSLEARNNOW' /&gt;">
+      <ui:BrowserScope.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="ContextTarget" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="516.8,895.2" sap2010:WorkflowViewState.IdRef="Sequence_2">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="449.6,664.8" sap2010:WorkflowViewState.IdRef="Sequence_2">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                <x:Boolean x:Key="IsPinned">False</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <ui:GetValue ContinueOnError="{x:Null}" DisplayName="Get Text 'Course Name'" sap:VirtualizedContainerService.HintSize="483.2,139.2" sap2010:WorkflowViewState.IdRef="GetValue_1">
+            <ui:GetValue ContinueOnError="{x:Null}" DisplayName="Get Text 'Course Name'" sap:VirtualizedContainerService.HintSize="416,139.2" sap2010:WorkflowViewState.IdRef="GetValue_1">
               <ui:GetValue.Target>
                 <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="058bfcc2-a837-4e22-ae0e-147a852f41a4" InformativeScreenshot="c80cd51ea4bf9a81b5ba04ed42cf55a1" Selector="&lt;html app='chrome.exe' title='*' url='https://www.udemy.com/course/*/?couponCode=LETSLEARNNOW' /&gt;&lt;webctrl tag='H1' aaname='*' /&gt;">
                   <ui:Target.TimeoutMS>
@@ -119,7 +120,7 @@
                 <OutArgument x:TypeArguments="x:String">[strFirstCousreName]</OutArgument>
               </ui:GetValue.Value>
             </ui:GetValue>
-            <ui:GetValue ContinueOnError="{x:Null}" DisplayName="Get Text 'Rate'" sap:VirtualizedContainerService.HintSize="483.2,139.2" sap2010:WorkflowViewState.IdRef="GetValue_2">
+            <ui:GetValue ContinueOnError="{x:Null}" DisplayName="Get Text 'Rate'" sap:VirtualizedContainerService.HintSize="416,139.2" sap2010:WorkflowViewState.IdRef="GetValue_2">
               <ui:GetValue.Target>
                 <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="14a4844b-fc20-4daf-bedd-8af68489333b" InformativeScreenshot="91dca6c9ab68b43448121a6e19636835" Selector="&lt;html app='chrome.exe' title='*' url='https://www.udemy.com/course/*/?couponCode=LETSLEARNNOW' /&gt;&lt;webctrl aaname='*' parentid='main-content-anchor' tag='SPAN' idx='7' /&gt;">
                   <ui:Target.TimeoutMS>
@@ -134,7 +135,7 @@
                 <OutArgument x:TypeArguments="x:String">[strFirstCousreRate]</OutArgument>
               </ui:GetValue.Value>
             </ui:GetValue>
-            <ui:GetValue ContinueOnError="{x:Null}" DisplayName="Get Text 'Author Name'" sap:VirtualizedContainerService.HintSize="483.2,139.2" sap2010:WorkflowViewState.IdRef="GetValue_3">
+            <ui:GetValue ContinueOnError="{x:Null}" DisplayName="Get Text 'Author Name'" sap:VirtualizedContainerService.HintSize="416,139.2" sap2010:WorkflowViewState.IdRef="GetValue_3">
               <ui:GetValue.Target>
                 <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="c816dce1-e139-4885-89c7-e87ac4bfebe2" InformativeScreenshot="9c271749196746ed1b96f5e0702fa6ea" Selector="&lt;html app='chrome.exe' title='*' url='https://www.udemy.com/course/*/?couponCode=LETSLEARNNOW' /&gt;&lt;webctrl class='instructor-links--names--fJWai' parentid='main-content-anchor' tag='SPAN' /&gt;">
                   <ui:Target.TimeoutMS>
@@ -149,7 +150,7 @@
                 <OutArgument x:TypeArguments="x:String">[strFirstCourseAuthorName]</OutArgument>
               </ui:GetValue.Value>
             </ui:GetValue>
-            <ui:GetValue ContinueOnError="{x:Null}" DisplayName="Get Text 'Price'" sap:VirtualizedContainerService.HintSize="483.2,139.2" sap2010:WorkflowViewState.IdRef="GetValue_4">
+            <ui:GetValue ContinueOnError="{x:Null}" DisplayName="Get Text 'Price'" sap:VirtualizedContainerService.HintSize="416,139.2" sap2010:WorkflowViewState.IdRef="GetValue_4">
               <ui:GetValue.Target>
                 <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="45d0bad6-362b-4e53-8630-018cc4a2a9d4" InformativeScreenshot="fc206f03269d75c1da09123afb07eb88" Selector="&lt;html app='chrome.exe' title='*' url='https://www.udemy.com/course/*/?couponCode=LETSLEARNNOW' /&gt;&lt;webctrl aaname='E£*' tag='SPAN' idx='4' /&gt;">
                   <ui:Target.TimeoutMS>
@@ -164,26 +165,16 @@
                 <OutArgument x:TypeArguments="x:String">[strFirstCoursePrice]</OutArgument>
               </ui:GetValue.Value>
             </ui:GetValue>
-            <ui:BrowserScope Browser="{x:Null}" BrowserType="Chrome" ContinueOnError="{x:Null}" DisplayName="Attach Browser 'chrome.exe Learn'" sap:VirtualizedContainerService.HintSize="483.2,278.4" sap2010:WorkflowViewState.IdRef="BrowserScope_3" InformativeScreenshot="8cbdc8f443e77406b5cb76a05298a4c4" SearchScope="{x:Null}" Selector="&lt;html app='chrome.exe' title='*' url='https://www.udemy.com/course/*/?couponCode=LETSLEARNNOW' /&gt;" TimeoutMS="{x:Null}" UiBrowser="{x:Null}">
-              <ui:BrowserScope.Body>
-                <ActivityAction x:TypeArguments="x:Object">
-                  <ActivityAction.Argument>
-                    <DelegateInArgument x:TypeArguments="x:Object" Name="ContextTarget" />
-                  </ActivityAction.Argument>
-                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="449.6,108" sap2010:WorkflowViewState.IdRef="Sequence_7">
-                    <sap:WorkflowViewStateService.ViewState>
-                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                      </scg:Dictionary>
-                    </sap:WorkflowViewStateService.ViewState>
-                    <ui:CloseTab Browser="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Close Tab" sap:VirtualizedContainerService.HintSize="416,48" sap2010:WorkflowViewState.IdRef="CloseTab_5" />
-                  </Sequence>
-                </ActivityAction>
-              </ui:BrowserScope.Body>
-            </ui:BrowserScope>
+            <ui:CloseTab Browser="{x:Null}" DisplayName="Close Tab" sap:VirtualizedContainerService.HintSize="416,48" sap2010:WorkflowViewState.IdRef="CloseTab_5" />
           </Sequence>
         </ActivityAction>
-      </ui:WindowScope.Body>
-    </ui:WindowScope>
+      </ui:BrowserScope.Body>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+    </ui:BrowserScope>
   </Sequence>
 </Activity>
