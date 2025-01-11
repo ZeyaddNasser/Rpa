@@ -1,0 +1,14 @@
+﻿{
+  "Name": "donjon; Random Weather …",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "oI6ljTEEyEqtQJjQmNUaEw",
+  "Reference": "wMdc54ZD0UONb-ORZ99frw/oI6ljTEEyEqtQJjQmNUaEw",
+  "ParentRef": "wMdc54ZD0UONb-ORZ99frw/xaJTUDNf_0-LEPNTV7jeNw",
+  "Created": "2025-01-04T18:41:25.0673211Z",
+  "Updated": "2025-01-04T18:41:25.0673211Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

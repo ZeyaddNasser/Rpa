@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="T2A-wd4qKkqAmFfUB-y9PA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="google.co.uk/search" CVScreenId="3c0a3a5e-8b73-47fa-b17e-0ab6a00c3b23" CvTextArea="262, 445, 408, 26" CvTextArgument="donjon; Random Weather Generator" CvType="Text" DesignTimeRectangle="265, 434, 404, 39" DesignTimeScaleFactor="1.25" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='H3' type='' class='LC20lb MBeuO DKV0Md' aaname='donjon; Random Weather Generator' check:innerText='donjon; Random Weather Generator' /&gt;" Guid="29c2f38d-2f81-42af-a7d8-63963e825649" ScopeSelectorArgument="&lt;html app='chrome.exe' title='random weather generator - Google Search' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="3c0a3a5e-8b73-47fa-b17e-0ab6a00c3b23" CvTextArea="312, 389, 147, 20" CvTextArgument="donjon; RPG Tools" CvType="Text" DesignTimeRectangle="314, 386, 201, 25" ElementType="Text" FuzzySelectorArgument="&lt;webctrl class='VuuXrf' parentid='ixcYae' tag='SPAN' type='' aaname='donjon; RPG Tools' check:innerText='donjon; RPG Tools' /&gt;" Guid="8d60ffa4-7598-4254-a7a7-120223d1ebab" SearchSteps="FuzzySelector, CV" />
+          <Target CVScreenId="3c0a3a5e-8b73-47fa-b17e-0ab6a00c3b23" CvElementArea="260, 388, 41, 43" CvTextArea="274, 399, 15, 21" CvType="Icon" DesignTimeRectangle="271, 398, 22, 23" ElementType="Icon" FuzzySelectorArgument="&lt;webctrl parentid='ixcYae' tag='IMG' type='' class='XNo5Ab' aaname='donjon; Random Weather Generatordonjon; RPG Toolshttps://donjon.bin.sh › weather' /&gt;" Guid="bbbda015-7fe0-4e51-aabf-336969bc4cd6" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABoAAAAbCAYAAABiFp9rAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAEOSURBVEhL7ZZNCoJQFIXfQBy5iIJW4SqCJs1sENIm3EiTHEggmDjSFbiAIGgR2chJ4eDEETMVwyJ7FXTgwuX+nA8e+HxiMByBMZ5MsbTX2O72eFX0oBc9r/45aDZfYOW4OCTHYvR10Yue9M5BTBx3g9PpXIz0J3rSmwxBahOSpil0XYcQ4qngDnerojcZou24+gRRZIgir6lvEPVZUJZlCMMQtm3XwjCM0pR5s88d7rapFVRVkiQIggCe58E0zRLEnDX2ONOlTlAcx9A0DYqiQFXVWrDGHme69DDIsixEUVQL1noH+b5fVG5i7Q+6qz/onr4PJO07evvN8Na7Ttrt/ds/PmlvBmmvIDnvugUuHIup/9FKrJEAAAAASUVORK5CYII=" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="af421dc007363ab0bba9d6392e1d1475.png" xmlns="">07tVkZASL00ahBaD1PIOxtQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

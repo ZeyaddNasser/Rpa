@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Q2UAaezTI0qVgaMFK8INhg" Reference="wMdc54ZD0UONb-ORZ99frw/O9CSm6GbmkqhK1YZRakAiA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="forum.uipath.com/t/element-appear-when-hovering-and-need-to-click-on-that/474860/3" CVScreenId="741a45f3-958e-48b2-9598-18314874a0c2" CvTextArea="879, 644, 144, 22" CvType="AnyWordGroup" DesignTimeRectangle="869, 636, 218, 33" DesignTimeScaleFactor="1.25" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='DIV' type='' class='' /&gt;" Guid="edff8993-3a7e-4db1-abbc-b23b99b2fc48" ScopeSelectorArgument="&lt;html app='chrome.exe' title='donjon; Random Weather Generator' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="741a45f3-958e-48b2-9598-18314874a0c2" CvTextArea="736, 644, 122, 22" CvTextArgument="Description:" CvType="Text" DesignTimeRectangle="651, 636, 218, 33" ElementType="Text" FuzzySelectorArgument="&lt;webctrl class='key' tag='DIV' type='' aaname='Description:' check:innerText='Description:' /&gt;" Guid="33e73db4-57d6-41b7-a67e-9fce3b6ec08b" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="0928984431d1ade3ee03383ef4f400c4.png" xmlns="">08Ulhl4gq1UmU1G9ZUnLRDA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

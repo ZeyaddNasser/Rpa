@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="a3oWbBI_lUCGX0hYDj4Adg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="forum.uipath.com/t/element-appear-when-hovering-and-need-to-click-on-that/474860/3" CVScreenId="ee15d1c1-862c-4142-b19b-3521c76c355c" CvElementArea="1128, 401, 164, 33" CvType="InputBox" DesignTimeRectangle="1129, 402, 160, 30" DesignTimeScaleFactor="1.25" ElementType="DropDown" FuzzySelectorArgument="&lt;webctrl tag='SELECT' type='' class='' aaname='Climate:' /&gt;" Guid="1e793872-0a39-4327-b381-e34ee53c5e60" ScopeSelectorArgument="&lt;html app='chrome.exe' title='donjon; Random Weather Generator' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="ee15d1c1-862c-4142-b19b-3521c76c355c" CvTextArea="1015, 410, 83, 18" CvTextArgument="Climate:" CvType="Text" DesignTimeRectangle="1016, 407, 83, 24" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='LABEL' type='' class='' aaname='Climate:' check:innerText='Climate:' /&gt;" Guid="f4d2af1e-c8e7-46f2-8baa-b2192b6a6076" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="8ce82dfd29a6815a93571821831acf0f.png" xmlns="">0013V0xE79keNVXY49tvhqA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

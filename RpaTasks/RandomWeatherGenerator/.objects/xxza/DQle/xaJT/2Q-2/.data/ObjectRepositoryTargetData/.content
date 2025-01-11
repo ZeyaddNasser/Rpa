@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="pVrvRgwo2EiXi9mpjBD_rQ" Reference="wMdc54ZD0UONb-ORZ99frw/2Q-2x-FKv0y-IgKGhcsaAA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="forum.uipath.com/t/element-appear-when-hovering-and-need-to-click-on-that/474860/3" CVScreenId="dd9f18b2-adb5-494a-a2ad-7157f64af8e0" CvElementArea="1053, 556, 132, 40" CvTextArea="1074, 566, 88, 18" CvTextArgument="Generate" CvType="Button" DesignTimeRectangle="1055, 558, 128, 36" DesignTimeScaleFactor="1.25" ElementType="Button" FuzzySelectorArgument="&lt;webctrl aaname='Generate' tag='INPUT' type='button' class='' check:text='Generate' /&gt;" Guid="39f834f6-06da-4f9a-9936-9874eb7d7ee4" ScopeSelectorArgument="&lt;html app='chrome.exe' title='donjon; Random Weather Generator' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="db7e80f5169ece5a308e593e2a9f2550.png" xmlns="">0Pp_zxwucr0WGuRFcmecGZw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
