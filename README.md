@@ -6,18 +6,18 @@
 
  ## Projects
 
-### 1.COVID-19 Cases Tracker Bot:
+#### 1. COVID-19 Cases Tracker Bot:
 
 * This bot prompts the user to enter a country name.
 * It navigates to the Worldometer COVID-19 page and retrieves the latest data for the specified country.
 * Finally, it generates an Excel report, complete with detailed process notes and visually appealing formatting.
   
-### 2.Random Weather Generator Bot:
+#### 2. Random Weather Generator Bot:
 
 * This bot fetches weather information from the Random Weather Generator website.
 * It provides users with personalized clothing recommendations based on the retrieved weather conditions.
 
-### 3.Udemy Course Search Bot:
+#### 3. Udemy Course Search Bot:
 
 * This bot allows users to search Udemy for courses by name.
 * It retrieves and displays the course price, author, and rating.
