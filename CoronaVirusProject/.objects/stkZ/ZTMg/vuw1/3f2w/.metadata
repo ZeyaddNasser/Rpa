@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Recovered",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "3f2wZyOMz0Kk5CMb8rwt5g",
+  "Reference": "_JbSCs7ScE-gUyA5lrC2rA/3f2wZyOMz0Kk5CMb8rwt5g",
+  "ParentRef": "_JbSCs7ScE-gUyA5lrC2rA/vuw1ORXkF0eXRS1pZ2o5Tg",
+  "Created": "2025-01-03T17:10:19.2923811Z",
+  "Updated": "2025-01-03T17:10:19.2923811Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

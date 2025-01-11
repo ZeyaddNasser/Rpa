@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Coronavirus Cases",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "csPX8t_JkUiG4J7Bs7kUYQ",
+  "Reference": "_JbSCs7ScE-gUyA5lrC2rA/csPX8t_JkUiG4J7Bs7kUYQ",
+  "ParentRef": "_JbSCs7ScE-gUyA5lrC2rA/vuw1ORXkF0eXRS1pZ2o5Tg",
+  "Created": "2025-01-03T17:08:28.3263082Z",
+  "Updated": "2025-01-03T17:08:28.3263082Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

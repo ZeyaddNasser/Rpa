@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Deaths",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "VFyPDH2Dh0yjPJrA-_TerQ",
+  "Reference": "_JbSCs7ScE-gUyA5lrC2rA/VFyPDH2Dh0yjPJrA-_TerQ",
+  "ParentRef": "_JbSCs7ScE-gUyA5lrC2rA/vuw1ORXkF0eXRS1pZ2o5Tg",
+  "Created": "2025-01-03T17:09:27.596944Z",
+  "Updated": "2025-01-03T17:09:27.596944Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="E9ycBltLvEShpdkKLZNwCw" Reference="_JbSCs7ScE-gUyA5lrC2rA/VFyPDH2Dh0yjPJrA-_TerQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="drive.google.com/drive/folders/1ThtLhWuK5RwyRtCxT88_-l8VrKaef9nm" CVScreenId="e0708c01-764b-4474-a9a1-cb0f1c4eeb17" CvTextArea="620, 685, 216, 65" CvType="AnyWordGroup" DesignTimeRectangle="623, 665, 212, 92" DesignTimeScaleFactor="1.25" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='maincounter-wrap' tag='SPAN' type='' class='' /&gt;" Guid="d5006839-13ad-4fe5-ab8f-e47d872f57cd" ScopeSelectorArgument="&lt;html app='chrome.exe' title='* COVID - Coronavirus Statistics - Worldometer' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="e0708c01-764b-4474-a9a1-cb0f1c4eeb17" CvTextArea="655, 607, 147, 43" CvTextArgument="Deaths:" CvType="Text" DesignTimeRectangle="290, 598, 879, 65" ElementType="Text" FuzzySelectorArgument="&lt;webctrl type='' parentid='maincounter-wrap' tag='H1' class='' aaname='Deaths:' check:innerText='Deaths:' /&gt;" Guid="944beb42-3cc2-4e9f-9f99-9f588ed29d0f" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="a631abec7a12c9513c0f31ce27448f07.png" xmlns="">0CHw_xqZUCECzTW790EAHxQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

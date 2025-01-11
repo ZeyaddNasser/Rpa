@@ -1,9 +1,0 @@
-Descreption : Windy
-Temperature : Moderate
-High Temperature: 43°F(6°C)
-Low Temperature : 28°F(-3°C)
-Relative: Colder than normal
-Wind Force : Moderate
-Wind Speed : 13mph(20kph)
-More Info : 
-  Moderate Wind: A steady wind with a 50% chance of extinguishing candles, torches, and similar unprotected flames.

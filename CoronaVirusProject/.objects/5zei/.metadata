@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Chrome ‪Session 4‬‏ - Google Drive",
+  "Type": "App",
+  "Id": "5zeieYaPWEqnvnfU1hlhfg",
+  "Reference": "_JbSCs7ScE-gUyA5lrC2rA/5zeieYaPWEqnvnfU1hlhfg",
+  "Created": "2025-01-03T15:31:38.6258577Z",
+  "Updated": "2025-01-03T15:31:38.6258577Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
