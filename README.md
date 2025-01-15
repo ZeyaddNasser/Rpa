@@ -23,6 +23,11 @@
 * It retrieves and displays the course price, author, and rating.
 * Additionally, it highlights and presents the two most affordable courses.
   
+#### 4. Check Country GDP:  
+
+* This bot prompts the user to enter a country name.
+* It navigate to Country Gdp and retrieves the amount .
+* Finally it tell you if the country is right place for business or not.
 ## Certificates:
 The Certificates folder includes the following achievements:  
 
