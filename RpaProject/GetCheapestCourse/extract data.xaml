@@ -86,13 +86,13 @@
       <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="extract_data" sap:VirtualizedContainerService.HintSize="866.4000000000001,898.4" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="extract_data" sap:VirtualizedContainerService.HintSize="866.4000000000001,858.4" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:BrowserScope Browser="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" UiBrowser="{x:Null}" BrowserType="Chrome" DisplayName="Attach Browser 'chrome.exe Learn'" sap:VirtualizedContainerService.HintSize="483.2,875.2" sap2010:WorkflowViewState.IdRef="BrowserScope_4" InformativeScreenshot="8cbdc8f443e77406b5cb76a05298a4c4" Selector="&lt;html app='chrome.exe' title='*' url='https://www.udemy.com/course/*/?couponCode=LETSLEARNNOW' /&gt;">
+    <ui:BrowserScope Browser="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" UiBrowser="{x:Null}" BrowserType="Chrome" DisplayName="Attach Browser 'chrome.exe Learn'" sap:VirtualizedContainerService.HintSize="483.2,835.2" sap2010:WorkflowViewState.IdRef="BrowserScope_4" InformativeScreenshot="8cbdc8f443e77406b5cb76a05298a4c4" Selector="&lt;html app='chrome.exe' title='*' url='https://www.udemy.com/course/*/?couponCode=LETSLEARNNOW' /&gt;">
       <ui:BrowserScope.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
@@ -152,7 +152,7 @@
             </ui:GetValue>
             <ui:GetValue ContinueOnError="{x:Null}" DisplayName="Get Text 'Price'" sap:VirtualizedContainerService.HintSize="416,139.2" sap2010:WorkflowViewState.IdRef="GetValue_4">
               <ui:GetValue.Target>
-                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="45d0bad6-362b-4e53-8630-018cc4a2a9d4" InformativeScreenshot="fc206f03269d75c1da09123afb07eb88" Selector="&lt;html app='chrome.exe' title='*' url='https://www.udemy.com/course/*/?couponCode=LETSLEARNNOW' /&gt;&lt;webctrl aaname='E£*' tag='SPAN' idx='4' /&gt;">
+                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="45d0bad6-362b-4e53-8630-018cc4a2a9d4" InformativeScreenshot="fc206f03269d75c1da09123afb07eb88" Selector="&lt;html app='chrome.exe' title='*' url='https://www.udemy.com/course/*' /&gt;&lt;webctrl aaname='E£*' tag='SPAN' idx='4' /&gt;">
                   <ui:Target.TimeoutMS>
                     <InArgument x:TypeArguments="x:Int32" />
                   </ui:Target.TimeoutMS>
