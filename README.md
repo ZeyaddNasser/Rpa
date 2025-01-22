@@ -28,6 +28,14 @@
 * This bot prompts the user to enter a country name.
 * It navigate to Country Gdp and retrieves the amount .
 * Finally it tell you if the country is right place for business or not.
+  
+#### 5. Extract YouTube PlayList Data:  
+
+* This bot prompts the user to enter any playlist name.
+* It navigate to the playlist and retrieves the views and video title .
+* It type all the the data of the videos inside the playlist into notepad.
+* Finally save the Notepad in the same file location.
+  
 ## Certificates:
 The Certificates folder includes the following achievements:  
 
