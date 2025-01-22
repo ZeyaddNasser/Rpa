@@ -1,0 +1,116 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": null,
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "strListOfViews&Sequence_1",
+        "strListOfTitle&Sequence_1",
+        "strTotalSumOfView&Sequence_1",
+        "strTotalView&Sequence_1",
+        "strTotalVideos&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Youtube_OpenBrowser.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "in_strUrl"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Youtube_SearchForPlaylist.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "strPlaylistName&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Youtube_FilterToList.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Youtube_ChoosePlaylist.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Youtube_ExtractData.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "out_strTotalView",
+        "out_strTotalVideos"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Youtube_ExtractVideoNameAndView.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "strListVideoTitle&Sequence_1",
+        "strListVideoView&Sequence_1",
+        "strVideoTitle&Sequence_3",
+        "strVidoeView&Sequence_3",
+        "int32Itterate&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "out_strVideoViews",
+        "out_strVideoTitle",
+        "out_strSumOfView",
+        "in_strNumberOfVideos"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Notepad_TypeIntoNotepad.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "int32Ittereator&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_strNumberOfVideo",
+        "in_strListOfViews",
+        "in_strListOfTitle"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Notepad_SaveNotePad.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "strFileExist&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}
