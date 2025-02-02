@@ -92,6 +92,7 @@
       "Path": "Notepad_TypeIntoNotepad.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
+        "strAllText&Sequence_2",
         "int32Ittereator&Sequence_2"
       ],
       "ArgumentsSectionElementsOrder": [
