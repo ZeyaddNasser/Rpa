@@ -9,81 +9,78 @@
       "AddedNamespaces": null
     },
     {
+      "Path": "IMDb_OpenBrowserChrome.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "In_strUrl"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
       "Path": "Main.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
-        "strTotalVideos&Sequence_1",
-        "strTotalView&Sequence_1",
-        "strTotalSumOfView&Sequence_1",
-        "strListOfTitle&Sequence_1",
-        "strListOfViews&Sequence_1"
+        "strCheckRepeatly&Flowchart_1",
+        "strNumberOfMovies&Flowchart_1",
+        "strListMovieName&Flowchart_1",
+        "strListMovieYear&Flowchart_1",
+        "strListMovieRate&Flowchart_1",
+        "strListMovieDuration&Flowchart_1",
+        "strUrl&Flowchart_1"
       ],
       "ArgumentsSectionElementsOrder": [],
       "ConstantsSectionElementsOrder": [],
       "AddedNamespaces": null
     },
     {
-      "Path": "Youtube_OpenBrowser.xaml",
+      "Path": "IMDb_SearchForWebSIte.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [],
-      "ArgumentsSectionElementsOrder": [
-        "in_strUrl"
-      ],
+      "ArgumentsSectionElementsOrder": [],
       "ConstantsSectionElementsOrder": [],
       "AddedNamespaces": null
     },
     {
-      "Path": "Youtube_SearchForPlaylist.xaml",
+      "Path": "IMDb_OpenWebSite.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "IMDb_NavigateToTop250Movie.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "IMDb_ExtractMoviesData.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
-        "strPlaylistName&Sequence_1"
-      ],
-      "ArgumentsSectionElementsOrder": [],
-      "ConstantsSectionElementsOrder": [],
-      "AddedNamespaces": null
-    },
-    {
-      "Path": "Youtube_FilterToList.xaml",
-      "SortBy": 0,
-      "VariablesSectionElementsOrder": [],
-      "ArgumentsSectionElementsOrder": [],
-      "ConstantsSectionElementsOrder": [],
-      "AddedNamespaces": null
-    },
-    {
-      "Path": "Youtube_ChoosePlaylist.xaml",
-      "SortBy": 0,
-      "VariablesSectionElementsOrder": [],
-      "ArgumentsSectionElementsOrder": [],
-      "ConstantsSectionElementsOrder": [],
-      "AddedNamespaces": null
-    },
-    {
-      "Path": "Youtube_ExtractData.xaml",
-      "SortBy": 0,
-      "VariablesSectionElementsOrder": [],
-      "ArgumentsSectionElementsOrder": [
-        "out_strTotalView",
-        "out_strTotalVideos"
-      ],
-      "ConstantsSectionElementsOrder": [],
-      "AddedNamespaces": null
-    },
-    {
-      "Path": "Youtube_ExtractVideoNameAndView.xaml",
-      "SortBy": 0,
-      "VariablesSectionElementsOrder": [
-        "strListVideoTitle&Sequence_1",
-        "strListVideoView&Sequence_1",
-        "strVideoTitle&Sequence_3",
-        "strVidoeView&Sequence_3",
-        "int32Itterate&Sequence_1"
+        "intCounterForYear&Sequence_2",
+        "intCounterForRate&Sequence_2",
+        "strListMovieDuration&Sequence_1",
+        "strListMovieRate&Sequence_1",
+        "strListMovieyear&Sequence_1",
+        "strListMoviename&Sequence_1",
+        "strMovieRate&Sequence_1",
+        "strMovieDuration&Sequence_1",
+        "strMovieYear&Sequence_1",
+        "strMovieName&Sequence_1",
+        "intCounterForDuration&Sequence_3",
+        "intCounter&Sequence_2"
       ],
       "ArgumentsSectionElementsOrder": [
-        "out_strVideoViews",
-        "out_strVideoTitle",
-        "out_strSumOfView",
-        "in_strNumberOfVideos"
+        "out_strMovieDuration",
+        "out_strMovieRate",
+        "out_strMovieYear",
+        "out_strMovieName",
+        "in_NumberOfMovies"
       ],
       "ConstantsSectionElementsOrder": [],
       "AddedNamespaces": null
@@ -92,13 +89,15 @@
       "Path": "Notepad_TypeIntoNotepad.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
-        "strAllText&Sequence_2",
-        "int32Ittereator&Sequence_2"
+        "int32Ittereator&Sequence_2",
+        "strAllText&Sequence_2"
       ],
       "ArgumentsSectionElementsOrder": [
-        "in_strNumberOfVideo",
-        "in_strListOfViews",
-        "in_strListOfTitle"
+        "in_strMovieDuration",
+        "in_strMovieYear",
+        "in_strMovieRate",
+        "in_strMovieName",
+        "in_strNumberOfMovies"
       ],
       "ConstantsSectionElementsOrder": [],
       "AddedNamespaces": null
@@ -118,26 +117,6 @@
       "SortBy": 0,
       "VariablesSectionElementsOrder": [],
       "ArgumentsSectionElementsOrder": [],
-      "ConstantsSectionElementsOrder": [],
-      "AddedNamespaces": null
-    },
-    {
-      "Path": "Youtube_CloseBrowser.xaml",
-      "SortBy": 0,
-      "VariablesSectionElementsOrder": [],
-      "ArgumentsSectionElementsOrder": [],
-      "ConstantsSectionElementsOrder": [],
-      "AddedNamespaces": null
-    },
-    {
-      "Path": "CompareExtractedData(Print).xaml",
-      "SortBy": 0,
-      "VariablesSectionElementsOrder": [],
-      "ArgumentsSectionElementsOrder": [
-        "in_TotalSumOfVideosViews",
-        "in_TotalVideoView",
-        "in_TotalVideoNumber"
-      ],
       "ConstantsSectionElementsOrder": [],
       "AddedNamespaces": null
     }
