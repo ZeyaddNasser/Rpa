@@ -1,0 +1,92 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "strManipulatedData&Sequence_1",
+        "dtSortedData&Sequence_1",
+        "dtCorruptedData&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Excel/Excel_ReadFile.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "boolPostCondition&Sequence_23",
+        "boolPreCondition&Sequence_22"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_intRetryNumber",
+        "in_tsRetryInterval",
+        "out_dtCorruptedData"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Excel/Excel_SortData.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "boolPostCondition&Sequence_41",
+        "strListOfDepartment&Sequence_4",
+        "strListOfCost&Sequence_4",
+        "strListOfDayLost&Sequence_4",
+        "intCounter&Sequence_13",
+        "strListOfAgeGroup&Sequence_4",
+        "strListOfGender&Sequence_1",
+        "strListOfDate&Sequence_1",
+        "strCurrentValue&Sequence_21"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "out_strManipulatedData",
+        "in_dtCorruptedData",
+        "in_tsRetryInterval",
+        "in_intRetryNumber"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Excel/Excel_WriteDataToFile.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "dtClearedSheet&Sequence_7",
+        "boolPreCondition&Sequence_2",
+        "boolPostCondition&Sequence_3"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_strManipulatedData",
+        "in_tsRetryInterval",
+        "in_intRetryNumber"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Template.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "boolPreCondition&Sequence_9",
+        "boolPostCondition&Sequence_8"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_intRetryNumber",
+        "in_tsRetryInterval"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}
